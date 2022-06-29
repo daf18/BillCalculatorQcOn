@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/textMontant"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:ems="10"
+        android:text="@string/amount" />
+
+    <EditText
+        android:id="@+id/montant"
+        android:layout_width="match_parent"
+        android:layout_height="39dp"
+        android:inputType="numberDecimal"
+        android:hint="@string/_0_00" />
+
+    <TextView
+        android:id="@+id/textProvince"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:text="@string/province" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <RadioButton
+            android:id="@+id/radioButtonQuebec"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/quebec" />
+
+        <RadioButton
+            android:id="@+id/radioButtonOntario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ontario" />
+
+        <Button
+            android:id="@+id/calculer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/calculer" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="227dp"
+            android:layout_height="141dp"
+            android:layout_gravity="center"
+            android:contentDescription="@string/province_flag"
+            tools:srcCompat="@tools:sample/backgrounds/scenic"
+            android:padding="15dp"/>
+
+        <TextView
+            android:id="@+id/total"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:hint="@string/total"
+            android:textSize="20dp" />
+    </RadioGroup>
+</LinearLayout>
