@@ -1,7 +1,6 @@
 # BillCalculatorQcOn
 <div style="display:flex">
      <div style="flex:1;padding-right:10px;">
-     ![153300](https://user-images.githubusercontent.com/35946656/176522788-5786a15b-f3ce-4c5f-92cf-5b61b09f9836.png)
           <img src="https://user-images.githubusercontent.com/35946656/176522788-5786a15b-f3ce-4c5f-92cf-5b61b09f9836.png" width="200" height="400"/>
      </div>
      <div style="flex:1;padding-left:10px;">
